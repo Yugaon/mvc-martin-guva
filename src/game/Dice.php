@@ -16,13 +16,14 @@ class Dice
         $this->sides = $sides;
     }
 
-    public function roll() {
+    public function roll()
+    {
         $this->lastroll = random_int(1, $this->sides);
 
         return $this->lastroll;
     }
-    public function GetlastRoll() {
+    public function getLastRoll()
+    {
         return $this->lastroll;
     }
-
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mos\Functions;
+namespace Magv20\Functions;
 
 use Twig\Loader\FilesystemLoader;
 use Twig\Environment;

@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-use function Mos\Functions\url;
+use function Magv20\Functions\url;
 
 $url = url("/session/destroy");
 
@@ -14,7 +14,7 @@ echo <<<EOD
 <h1>Session details</h1>
 <p>Here are some details on the session. Reload this page to see the counter increment itself.</p>
 <p>You may <a href="$url">destroy the session</a> if you like, good for dealing
-with trouble.</p>
+with troubl.</p>
 EOD;
 
 var_dump(session_name());

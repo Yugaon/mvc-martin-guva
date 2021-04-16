@@ -23,19 +23,20 @@ class DiceHand
         }
     }
 
-    public function roll() {
-      for ($i = 0; $i < count($this ->dices); $i++) {
-        $save = random_int(1, $this->sides);
-        $this->values[$i] = $save;
-      }
-
-
-}
-    public function values() {
-      return $this->values;
+    public function roll()
+    {
+        for ($i = 0; $i < count($this ->dices); $i++) {
+            $save = random_int(1, $this->sides);
+            $this->values[$i] = $save;
+        }
+    }
+    public function values()
+    {
+        return $this->values;
     }
 
-    public function sum() {
-      return array_sum($this->values);
+    public function sum()
+    {
+        return array_sum($this->values);
     }
 }

@@ -18,14 +18,17 @@ require __DIR__ . "/../standard.php";
 *echo $object->roll();
 *var_dump($object->LastSave());
  */
-$_SESSION['value'] = 0;
- score(); ?>
-
-<h3>Let's play 21</h3>
-  <form action="21_1" method="POST">
-    <input class="button" type="submit" value="One die">
-  </form>
-  <form action="21_2" method="POST">
-    <input class="button" type="submit" value="Two dice">
+$_SESSION['totalpoeng'] = 0;
+$_SESSION['poeng'] = 0;
+$_SESSION['count'] = array();
+$_SESSION['values'] = array();
+$_SESSION['saved'] = array();
+$_SESSION['yatzyslag'] = 5;
+$_SESSION['yatzyrundor'] = 0;
+$_SESSION['yatzyturnes'] = 1;
+?>
+<h3>Let's play Yatzy</h3>
+  <form action="yatzy" method="POST">
+    <input class="button" type="submit" value="Play">
   </form>
 <?php require __DIR__ . "/../footer.php";

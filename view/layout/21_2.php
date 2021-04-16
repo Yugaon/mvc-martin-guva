@@ -7,13 +7,13 @@
 declare(strict_types=1);
 
 namespace Magv20;
+
 require __DIR__ . "/../../src/game/Dice.php";
 require __DIR__ . "/../../src/game/DiceGraphic.php";
 require __DIR__ . "/../../src/game/DiceHand.php";
 
 require __DIR__ . "/../header.php";
 require __DIR__ . "/../standard.php";
-
 
 ?>
 
@@ -39,7 +39,8 @@ require __DIR__ . "/../standard.php";
 <?php
 require __DIR__ . "/../../src/game/functions.php";
 
-foreach ($_SESSION['historik'] as $row): array_map('htmlentities', $row); ?>
+
+foreach ($_SESSION['historik'] as $row) : array_map('htmlentities', $row) ; ?>
 <br>
 <table>
     <th>Vinnare</th>

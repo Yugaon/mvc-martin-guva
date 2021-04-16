@@ -6,13 +6,13 @@
 
 declare(strict_types=1);
 
-use function Mos\Functions\{
+use function Magv20\Functions\{
     getBaseUrl,
     getCurrentUrl,
     getRoutePath
 };
 
-echo "<h1>Debug details</h1>";
+echo "<h1>Debug detais</h1>";
 
 var_dump(getBaseUrl());
 var_dump(getCurrentUrl());

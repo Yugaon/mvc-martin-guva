@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-use function Mos\Functions\url;
+use function Magv20\Functions\url;
 
 ?><!doctype html>
 <html>
@@ -27,6 +27,7 @@ use function Mos\Functions\url;
         <a href="<?= url("/twig") ?>">Twig view</a> |
         <a href="<?= url("/some/where") ?>">some/where</a> |
         <a href="<?= url("/dice") ?>">Game 21</a> |
+        <a href="<?= url("/BeforeYatzy") ?>">Yatzy</a> |
         <a href="<?= url("/no/such/path") ?>">Show 404 example</a>
     </nav>
 </header>

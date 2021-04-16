@@ -7,18 +7,17 @@ namespace Magv20;
 class DiceGraphic extends Dice
 {
 
-  const SIDES = 6;
+    const SIDES = 6;
 
-  public function __construct()
-  {
-      parent::__construct(self::SIDES);
-  }
+    public function __construct()
+    {
+        parent::__construct(self::SIDES);
+    }
 
 
-  public function graphic()
-  {
-    var_dump($this->lastroll);
-    return "dice-sprite dice-" .  $this->lastroll;
-  }
-
+    public function graphic()
+    {
+        var_dump($this->lastroll);
+        return "dice-sprite dice-" .  $this->lastroll;
+    }
 }
