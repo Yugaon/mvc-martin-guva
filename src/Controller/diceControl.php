@@ -12,7 +12,7 @@ use function Magv20\Functions\renderView;
 /**
  * Controller for the index route.
  */
-class Dice
+class DiceControl
 {
     public function __invoke(): ResponseInterface
     {

@@ -14,10 +14,8 @@ class DiceGraphic extends Dice
         parent::__construct(self::SIDES);
     }
 
-
     public function graphic()
     {
-        var_dump($this->lastroll);
-        return "dice-sprite dice-" .  $this->lastroll;
+        return "dice-sprite dice-" .  $this->getLastroll();
     }
 }

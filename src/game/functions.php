@@ -43,6 +43,7 @@ function dice_roll_1()
         );
         $_SESSION['historik'][] = $historik;
     }
+    return true;
 }
 
 if (array_key_exists('test1', $_POST)) {
@@ -91,6 +92,7 @@ function dice_roll_2()
         );
         $_SESSION['historik'][] = $historik;
     }
+    return true;
 }
 
 if (array_key_exists('test2', $_POST)) {
@@ -102,6 +104,7 @@ if (array_key_exists('test2', $_POST)) {
 function reset()
 {
     $_SESSION['value'] = 0;
+    return true;
 }
 if (array_key_exists('reset', $_POST)) {
     reset();
@@ -112,6 +115,8 @@ function score()
     $_SESSION['historik'] = array();
     $_SESSION['runda'] = 0;
     $_SESSION['value'] = 0;
+
+    return true;
 }
 if (array_key_exists('score', $_POST)) {
     score();
@@ -121,6 +126,7 @@ function stop()
 {
     echo "Your score is " . $_SESSION['value'];
     computer();
+    return true;
 }
 if (array_key_exists('stop', $_POST)) {
     stop();
@@ -160,6 +166,7 @@ function computer()
               break;
         }
     }
+    return true;
 }
 
 
@@ -179,6 +186,8 @@ function rolling_yatzy()
     present_save($_SESSION['saved']);
     present_info($values);
     $_SESSION['yatzyrundor']++;
+
+    return true;
 }
 if (array_key_exists('rolling', $_POST)) {
     rolling_yatzy();
@@ -194,6 +203,8 @@ function saving_yatzy()
 
     present_save($_SESSION['saved']);
     present_info($_SESSION['values']);
+
+    return true;
 }
 if (array_key_exists('saving', $_POST)) {
     saving_yatzy();
@@ -251,6 +262,8 @@ function playing_rounds()
     <form action="yatzy" method="POST">
         <input type="hidden" /><br/>
     </form> <?php
+
+    return true;
 }
 
 function done_with_game()

@@ -8,8 +8,6 @@
 
  namespace Magv20;
 
-require __DIR__ . "/../../src/game/Dice.php";
-require __DIR__ . "/../../src/game/functions.php";
 require __DIR__ . "/../header.php";
 require __DIR__ . "/../standard.php";
 
@@ -18,8 +16,7 @@ require __DIR__ . "/../standard.php";
 *echo $object->roll();
 *var_dump($object->LastSave());
  */
-$_SESSION['value'] = 0;
- score(); ?>
+$_SESSION['value'] = 0;?>
 
 <h3>Let's play 21</h3>
   <form action="21_1" method="POST">

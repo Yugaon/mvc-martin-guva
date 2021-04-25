@@ -8,8 +8,6 @@
 
  namespace Magv20;
 
-require __DIR__ . "/../../src/game/Dice.php";
-require __DIR__ . "/../../src/game/functions.php";
 require __DIR__ . "/../header.php";
 require __DIR__ . "/../standard.php";
 

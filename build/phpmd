@@ -1,3 +1,0 @@
-C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\game\Dice.php:9	Avoid unused private fields such as '$save'.
-C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\game\DiceHand.php:12	Avoid unused private fields such as '$save'.
-C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\game\DiceHand.php:28	Avoid using Magv20\count() function in for loops.

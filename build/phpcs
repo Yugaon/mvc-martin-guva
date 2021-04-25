@@ -1,9 +1,28 @@
 
+FILE: C:\Users\Martin\dbwebb-kurser\mvc\me\game\test\TESTING\ControllerTesting.php
+----------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------------------
+ 96 | ERROR | Each class must be in a file by itself
+----------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Martin\dbwebb-kurser\mvc\me\game\test\TESTING\FunctionsAndClassTest.php
+-------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+-------------------------------------------------------------------------------------------
+ 106 | ERROR | [ ] Each class must be in a file by itself
+ 164 | ERROR | [x] The closing brace for the class must go on the next line after the body
+-------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------------------
+
+
 FILE: C:\Users\Martin\dbwebb-kurser\mvc\me\game\view\layout\21_1.php
 ----------------------------------------------------------------------
 FOUND 1 ERROR AFFECTING 1 LINE
 ----------------------------------------------------------------------
- 41 | ERROR | [x] Newline required after opening brace
+ 37 | ERROR | [x] Newline required after opening brace
 ----------------------------------------------------------------------
 PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
@@ -13,10 +32,10 @@ FILE: C:\Users\Martin\dbwebb-kurser\mvc\me\game\view\layout\21_2.php
 ----------------------------------------------------------------------
 FOUND 1 ERROR AFFECTING 1 LINE
 ----------------------------------------------------------------------
- 43 | ERROR | [x] Newline required after opening brace
+ 40 | ERROR | [x] Newline required after opening brace
 ----------------------------------------------------------------------
 PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
-Time: 917ms; Memory: 8MB
+Time: 2.74 secs; Memory: 8MB
 

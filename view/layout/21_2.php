@@ -8,10 +8,6 @@ declare(strict_types=1);
 
 namespace Magv20;
 
-require __DIR__ . "/../../src/game/Dice.php";
-require __DIR__ . "/../../src/game/DiceGraphic.php";
-require __DIR__ . "/../../src/game/DiceHand.php";
-
 require __DIR__ . "/../header.php";
 require __DIR__ . "/../standard.php";
 
@@ -37,7 +33,8 @@ require __DIR__ . "/../standard.php";
 
 
 <?php
-require __DIR__ . "/../../src/game/functions.php";
+include_once __DIR__ . "/../../src/game/functions.php";
+dice_roll_2();
 
 
 foreach ($_SESSION['historik'] as $row) : array_map('htmlentities', $row) ; ?>
