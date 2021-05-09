@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Magv20;
 
+
+include_once __DIR__ . "/Dice.php";
+include_once __DIR__ . "/DiceHand.php";
+
 function dice_roll_1()
 {
 

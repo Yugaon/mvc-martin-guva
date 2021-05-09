@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1620507052">
+  <project timestamp="1620507052">
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\BeforeYatzy.php">
+      <class name="Magv20\Controller\BeforeYatzy" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\Debug.php">
+      <class name="Magv20\Controller\Debug" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </class>
+      <line num="19" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="21" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <metrics loc="38" ncloc="24" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\Error.php">
+      <class name="Magv20\Controller\Error" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+      </class>
+      <line num="17" type="method" name="do404" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="35" type="method" name="do405" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="1"/>
+      <line num="49" type="stmt" count="1"/>
+      <metrics loc="51" ncloc="48" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\Index.php">
+      <class name="Magv20\Controller\Index" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <metrics loc="32" ncloc="29" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\Sample.php">
+      <class name="Magv20\Controller\Sample" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="where" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <metrics loc="32" ncloc="29" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\Session.php">
+      <class name="Magv20\Controller\Session" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="4" elements="10" coveredelements="5"/>
+      </class>
+      <line num="22" type="method" name="index" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="35" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="41" type="stmt" count="0"/>
+      <metrics loc="43" ncloc="40" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="4" elements="10" coveredelements="5"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\TwigView.php">
+      <class name="Magv20\Controller\TwigView" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <metrics loc="32" ncloc="29" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\YatzyMiddle.php">
+      <class name="Magv20\Controller\YatzyMiddle" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\dice1.php">
+      <class name="Magv20\Controller\Dice1" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\dice2.php">
+      <class name="Magv20\Controller\Dice2" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\diceControl.php">
+      <class name="Magv20\Controller\DiceControl" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\Controller\yatzy.php">
+      <class name="Magv20\Controller\Yatzy" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\functions.php">
+      <line num="22" type="stmt" count="2"/>
+      <line num="23" type="stmt" count="2"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="42" type="stmt" count="13"/>
+      <line num="44" type="stmt" count="13"/>
+      <line num="45" type="stmt" count="13"/>
+      <line num="46" type="stmt" count="13"/>
+      <line num="47" type="stmt" count="13"/>
+      <line num="49" type="stmt" count="13"/>
+      <line num="66" type="stmt" count="2"/>
+      <line num="67" type="stmt" count="2"/>
+      <line num="69" type="stmt" count="2"/>
+      <line num="70" type="stmt" count="1"/>
+      <line num="71" type="stmt" count="1"/>
+      <line num="76" type="stmt" count="1"/>
+      <line num="79" type="stmt" count="2"/>
+      <line num="93" type="stmt" count="0"/>
+      <line num="94" type="stmt" count="0"/>
+      <line num="95" type="stmt" count="0"/>
+      <line num="108" type="stmt" count="0"/>
+      <line num="109" type="stmt" count="0"/>
+      <line num="110" type="stmt" count="0"/>
+      <line num="124" type="stmt" count="13"/>
+      <line num="136" type="stmt" count="14"/>
+      <line num="138" type="stmt" count="14"/>
+      <line num="139" type="stmt" count="14"/>
+      <line num="142" type="stmt" count="1"/>
+      <line num="143" type="stmt" count="1"/>
+      <line num="146" type="stmt" count="1"/>
+      <line num="149" type="stmt" count="1"/>
+      <line num="150" type="stmt" count="1"/>
+      <line num="151" type="stmt" count="1"/>
+      <line num="152" type="stmt" count="1"/>
+      <line num="153" type="stmt" count="0"/>
+      <line num="154" type="stmt" count="1"/>
+      <line num="155" type="stmt" count="1"/>
+      <line num="157" type="stmt" count="1"/>
+      <line num="169" type="stmt" count="3"/>
+      <line num="170" type="stmt" count="3"/>
+      <line num="172" type="stmt" count="3"/>
+      <line num="173" type="stmt" count="3"/>
+      <line num="174" type="stmt" count="0"/>
+      <line num="175" type="stmt" count="3"/>
+      <line num="176" type="stmt" count="0"/>
+      <line num="177" type="stmt" count="3"/>
+      <line num="179" type="stmt" count="3"/>
+      <line num="181" type="stmt" count="3"/>
+      <line num="182" type="stmt" count="3"/>
+      <line num="183" type="stmt" count="3"/>
+      <line num="185" type="stmt" count="3"/>
+      <line num="197" type="stmt" count="0"/>
+      <line num="199" type="stmt" count="0"/>
+      <line num="200" type="stmt" count="0"/>
+      <line num="201" type="stmt" count="0"/>
+      <line num="202" type="stmt" count="0"/>
+      <line num="203" type="stmt" count="0"/>
+      <line num="204" type="stmt" count="0"/>
+      <line num="205" type="stmt" count="0"/>
+      <line num="206" type="stmt" count="0"/>
+      <line num="207" type="stmt" count="0"/>
+      <line num="208" type="stmt" count="0"/>
+      <line num="212" type="stmt" count="0"/>
+      <line num="213" type="stmt" count="0"/>
+      <metrics loc="213" ncloc="152" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="41" elements="63" coveredelements="41"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\game\Dice.php">
+      <class name="Magv20\Dice" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+      </class>
+      <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="11"/>
+      <line num="16" type="stmt" count="11"/>
+      <line num="17" type="stmt" count="11"/>
+      <line num="19" type="method" name="roll" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="21" type="stmt" count="5"/>
+      <line num="23" type="stmt" count="5"/>
+      <line num="25" type="method" name="getLastRoll" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="27" type="stmt" count="2"/>
+      <metrics loc="29" ncloc="29" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\game\DiceGraphic.php">
+      <class name="Magv20\DiceGraphic" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </class>
+      <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="14" type="stmt" count="5"/>
+      <line num="15" type="stmt" count="5"/>
+      <line num="17" type="method" name="graphic" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\game\DiceHand.php">
+      <class name="Magv20\DiceHand" namespace="global">
+        <metrics complexity="6" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="16" coveredelements="16"/>
+      </class>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="6"/>
+      <line num="17" type="stmt" count="6"/>
+      <line num="18" type="stmt" count="6"/>
+      <line num="20" type="stmt" count="6"/>
+      <line num="21" type="stmt" count="6"/>
+      <line num="22" type="stmt" count="6"/>
+      <line num="24" type="stmt" count="6"/>
+      <line num="26" type="method" name="roll" visibility="public" complexity="2" crap="2" count="6"/>
+      <line num="28" type="stmt" count="6"/>
+      <line num="29" type="stmt" count="6"/>
+      <line num="30" type="stmt" count="6"/>
+      <line num="32" type="stmt" count="6"/>
+      <line num="33" type="method" name="values" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="35" type="stmt" count="6"/>
+      <line num="38" type="method" name="sum" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="40" type="stmt" count="1"/>
+      <metrics loc="42" ncloc="42" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="16" coveredelements="16"/>
+    </file>
+    <file name="C:\Users\Martin\dbwebb-kurser\mvc\me\game\src\game\functions.php">
+      <line num="14" type="stmt" count="2"/>
+      <line num="15" type="stmt" count="2"/>
+      <line num="16" type="stmt" count="2"/>
+      <line num="18" type="stmt" count="2"/>
+      <line num="24" type="stmt" count="2"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="29" type="stmt" count="2"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="2"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="46" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="2"/>
+      <line num="60" type="stmt" count="3"/>
+      <line num="61" type="stmt" count="3"/>
+      <line num="62" type="stmt" count="3"/>
+      <line num="63" type="stmt" count="3"/>
+      <line num="65" type="stmt" count="3"/>
+      <line num="72" type="stmt" count="3"/>
+      <line num="73" type="stmt" count="3"/>
+      <line num="74" type="stmt" count="3"/>
+      <line num="78" type="stmt" count="3"/>
+      <line num="79" type="stmt" count="0"/>
+      <line num="80" type="stmt" count="0"/>
+      <line num="81" type="stmt" count="0"/>
+      <line num="82" type="stmt" count="0"/>
+      <line num="84" type="stmt" count="0"/>
+      <line num="85" type="stmt" count="0"/>
+      <line num="87" type="stmt" count="0"/>
+      <line num="88" type="stmt" count="3"/>
+      <line num="89" type="stmt" count="2"/>
+      <line num="90" type="stmt" count="2"/>
+      <line num="91" type="stmt" count="2"/>
+      <line num="92" type="stmt" count="2"/>
+      <line num="94" type="stmt" count="2"/>
+      <line num="95" type="stmt" count="2"/>
+      <line num="97" type="stmt" count="2"/>
+      <line num="99" type="stmt" count="3"/>
+      <line num="110" type="stmt" count="1"/>
+      <line num="111" type="stmt" count="1"/>
+      <line num="119" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="123" type="stmt" count="1"/>
+      <line num="131" type="stmt" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="142" type="stmt" count="2"/>
+      <line num="143" type="stmt" count="2"/>
+      <line num="144" type="stmt" count="2"/>
+      <line num="145" type="stmt" count="2"/>
+      <line num="146" type="stmt" count="2"/>
+      <line num="147" type="stmt" count="2"/>
+      <line num="148" type="stmt" count="0"/>
+      <line num="149" type="stmt" count="0"/>
+      <line num="150" type="stmt" count="0"/>
+      <line num="151" type="stmt" count="0"/>
+      <line num="152" type="stmt" count="0"/>
+      <line num="154" type="stmt" count="0"/>
+      <line num="155" type="stmt" count="0"/>
+      <line num="157" type="stmt" count="0"/>
+      <line num="158" type="stmt" count="0"/>
+      <line num="159" type="stmt" count="2"/>
+      <line num="160" type="stmt" count="2"/>
+      <line num="161" type="stmt" count="2"/>
+      <line num="162" type="stmt" count="2"/>
+      <line num="163" type="stmt" count="2"/>
+      <line num="164" type="stmt" count="2"/>
+      <line num="166" type="stmt" count="2"/>
+      <line num="167" type="stmt" count="2"/>
+      <line num="169" type="stmt" count="2"/>
+      <line num="170" type="stmt" count="2"/>
+      <line num="173" type="stmt" count="2"/>
+      <line num="179" type="stmt" count="1"/>
+      <line num="180" type="stmt" count="1"/>
+      <line num="182" type="stmt" count="1"/>
+      <line num="183" type="stmt" count="1"/>
+      <line num="186" type="stmt" count="1"/>
+      <line num="187" type="stmt" count="1"/>
+      <line num="188" type="stmt" count="1"/>
+      <line num="189" type="stmt" count="1"/>
+      <line num="190" type="stmt" count="1"/>
+      <line num="191" type="stmt" count="1"/>
+      <line num="192" type="stmt" count="1"/>
+      <line num="194" type="stmt" count="1"/>
+      <line num="202" type="stmt" count="1"/>
+      <line num="203" type="stmt" count="1"/>
+      <line num="204" type="stmt" count="1"/>
+      <line num="205" type="stmt" count="1"/>
+      <line num="208" type="stmt" count="1"/>
+      <line num="209" type="stmt" count="1"/>
+      <line num="211" type="stmt" count="1"/>
+      <line num="220" type="stmt" count="2"/>
+      <line num="222" type="stmt" count="2"/>
+      <line num="223" type="stmt" count="2"/>
+      <line num="225" type="stmt" count="2"/>
+      <line num="228" type="stmt" count="2"/>
+      <line num="235" type="stmt" count="2"/>
+      <line num="237" type="stmt" count="2"/>
+      <line num="238" type="stmt" count="1"/>
+      <line num="240" type="stmt" count="2"/>
+      <line num="245" type="stmt" count="2"/>
+      <line num="249" type="stmt" count="2"/>
+      <line num="250" type="stmt" count="2"/>
+      <line num="251" type="stmt" count="1"/>
+      <line num="254" type="stmt" count="2"/>
+      <line num="255" type="stmt" count="2"/>
+      <line num="256" type="stmt" count="2"/>
+      <line num="257" type="stmt" count="2"/>
+      <line num="258" type="stmt" count="2"/>
+      <line num="259" type="stmt" count="2"/>
+      <line num="260" type="stmt" count="2"/>
+      <line num="261" type="stmt" count="2"/>
+      <line num="262" type="stmt" count="2"/>
+      <line num="263" type="stmt" count="2"/>
+      <line num="264" type="stmt" count="2"/>
+      <line num="266" type="stmt" count="2"/>
+      <line num="270" type="stmt" count="2"/>
+      <line num="275" type="stmt" count="1"/>
+      <line num="278" type="stmt" count="1"/>
+      <line num="279" type="stmt" count="1"/>
+      <line num="280" type="stmt" count="1"/>
+      <line num="281" type="stmt" count="1"/>
+      <line num="282" type="stmt" count="1"/>
+      <line num="283" type="stmt" count="1"/>
+      <line num="284" type="stmt" count="1"/>
+      <line num="285" type="stmt" count="1"/>
+      <line num="286" type="stmt" count="1"/>
+      <metrics loc="286" ncloc="286" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="138" coveredstatements="115" elements="138" coveredelements="115"/>
+    </file>
+    <metrics files="17" loc="1005" ncloc="897" classes="15" methods="23" coveredmethods="22" conditionals="0" coveredconditionals="0" statements="289" coveredstatements="240" elements="312" coveredelements="262"/>
+  </project>
+</coverage>

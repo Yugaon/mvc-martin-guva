@@ -6,11 +6,11 @@ namespace Magv20;
 
 class DiceHand
 {
-     private $dices;
-     private $values;
+
+    private $dices;
+    private $values;
     private $sides = 6;
     private $save;
-
 
     public function __construct(int $dices)
     {
